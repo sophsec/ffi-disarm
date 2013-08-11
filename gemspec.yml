@@ -1,10 +1,22 @@
 name: ffi-disarm
-summary: "TODO: Summary"
-description: "TODO: Description"
+summary: FFI bindings for libdisarm
+description: |
+  Ruby FFI bindings for libdisarm, an ARM disassembler library.
+
+  Disassembles ARM instructions to a data structure that makes it easy to
+  access instruction parameters. The library also contains functions to print
+  human-readable assembly code from instructions, and alongside the library a
+  small disassembly tool is provided. Tested on ARMv4 code but should support
+  instructions in ARMv5 and below. Thumb instructions are currently
+  not supported.
+
 license: MIT
 authors: Postmodern
 email: postmodern.mod3@gmail.com
-homepage: https://github.com/postmodern/ffi-disarm#readme
+homepage: https://github.com/sophsec/ffi-disarm#readme
+
+dependencies:
+  ffi: ~> 1.0
 
 development_dependencies:
   rspec: ~> 2.4
