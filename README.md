@@ -37,4 +37,4 @@ Copyright (c) 2013 Postmodern
 
 See {file:LICENSE.txt} for details.
 
-[libdisarm]: https://launchpad.net/libdisarm
+[libdisarm]: https://github.com/jonls/libdisarm#readme
